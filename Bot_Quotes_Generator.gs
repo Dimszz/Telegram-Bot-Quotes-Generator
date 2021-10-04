@@ -8,10 +8,10 @@
 
 /* Langkah 1 */
 // simpan global variable untuk url hasil deploy pada project script ini
-var url_hasil_deploy = "MASUKAN_URL_HASIL_DEPLOY_DISINI";
+var url_hasil_deploy = "https:heroku.com";
 
 //simpan global variable token untuk dipakai lagi saat request api
-var token = "MASUKAN_TOKEN_BOT_TELEGRAMMU_DISINI";
+var token = "1948137418:AAHQqvcGnl_TiIA3fxuCPU-lAA44b-_GW3I";
 
 //fungsi mengirim pesan untuk bot dengan request ke api telegram
 function sendMessage(chat_id, text, parse = 'HTML') {
